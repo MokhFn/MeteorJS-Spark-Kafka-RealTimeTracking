@@ -7,6 +7,8 @@ Listed below are the dependencies, and the packages needed to run this applicati
 
 2- The Mongo Spark connector : Official repo here https://github.com/mongodb/mongo-spark compatible with MongoDB 2.6 or later and Apache Spark version 1.6.x or later , check https://docs.mongodb.com/spark-connector/v1.1/ for the docs and the installation.
 
+Include the following jars with the spark jars folder :
+
   a- The actual connector jar at http://search.maven.org/#search%7Cga%7C1%7Cg%3Aorg.mongodb.spark
   Make sure you get the right package, according to your scala and spark versions
   
