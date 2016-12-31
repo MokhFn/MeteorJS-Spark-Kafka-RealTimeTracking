@@ -21,6 +21,7 @@ Listed below are the dependencies, and the packages needed to run this applicati
   
 Launching the app : 
   Create a kafka topic named "test" (Or use your own topic and change the code) , launch the pyspark with the following command : 
+
     pyspark --conf spark.mongodb.input.uri=mongodb://127.0.0.1/db_name.collection_name --conf spark.mongodb.output.uri=mongodb://127.0.0.1/db_name.collection_name --packages org.mongodb.spark:mongo-spark-connector_2.x:X.X.X
   
   Make sure you have the right db_name and collection name. Add the port number if it's different from the default one 27017.
