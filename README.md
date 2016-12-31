@@ -11,8 +11,11 @@ Listed below are the dependencies, and the packages needed to run this applicati
   Make sure you get the right package, according to your scala and spark versions
   
   b- The driver and it's dependencies (manually without SBT or maven) :
+
     - The driver : https://oss.sonatype.org/content/repositories/releases/org/mongodb/mongodb-driver/
+
     - The driver core : https://oss.sonatype.org/content/repositories/releases/org/mongodb/mongodb-driver-core
+
     - The bson jar : https://oss.sonatype.org/content/repositories/releases/org/mongodb/bson/
   
   
