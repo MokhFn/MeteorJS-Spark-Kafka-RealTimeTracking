@@ -1,0 +1,25 @@
+<head>
+    <title>Real Time Tracking</title>
+</head>
+<body>
+<h1></h1>
+<p>
+    {{>loginButtons}}
+</p>
+{{>coordinates}}
+
+<div class="map-container">
+    {{> googleMap name="exampleMap" options=exampleMapOptions}}
+</div>
+</body>
+
+<template name="coordinates">
+    <ul>
+        <li>
+            {{coordinates.lat}}
+        </li>
+        <li>
+            {{coordinates.long}}
+        </li>
+    </ul>
+</template>

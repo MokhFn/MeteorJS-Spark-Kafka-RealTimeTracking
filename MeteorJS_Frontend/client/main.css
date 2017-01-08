@@ -1,0 +1,9 @@
+/* CSS declarations go here */
+.selected{
+    background-color: darkred;
+}
+.map-container {
+    width: 100%;
+    max-width: 100%;
+    height: 700px;
+}
